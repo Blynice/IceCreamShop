@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #82b8d9;
+  font-size: 1.2rem;
+}
+h1,
+h2,
+button {
+  font-family: "Indie Flower", cursive;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-top: 50px;
+}
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: 50px auto;
+  width: 900px;
+  height: 80vh;
+  border-radius: 5px;
+  background-color: #f2e9d8;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.image {
+  align-items: center;
+  margin: 171px 0 30px 70px;
+}
+
+.form-contain {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 130px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  width: 30%;
+  height: 84vh;
+  top: -17px;
+  left: 500px;
+  border-radius: 5px;
+  background-color: #f2b3d6;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+form {
+  text-align: center;
+  margin-bottom: 66px;
+}
+input {
+  color: #5b5353;
+  padding: 10px;
+  border-radius: 20px;
+  border-style: none;
+  margin-top: 20px;
+  font-size: 0.8rem;
+  width: 200px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+button {
+  background-color: #f2b3d6;
+  border-radius: 20px;
+  border-style: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  margin-top: 20px;
+  width: 100px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #e4d5dd;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #181717;
+}
+a:hover {
+  color: antiquewhite;
+}
+p {
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+/************** login *************/
+.log-contain {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 130px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  width: 30%;
+  height: 84vh;
+  top: -10px;
+  left: 166px;
+  border-radius: 5px;
+  background-color: #f2b3d6;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.log-image img {
+  opacity: 0.6;
+  width: 900px;
+  height: 780px;
+  border-radius: 5px;
+}
+
+.log-form {
+  margin-bottom: 138px;
+}

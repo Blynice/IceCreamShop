@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Ice Shop</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="image">
+        <h1>Discover our new flavor every month !</h1>
+        <img src="pexels-teejay.jpg" width="500px" height="300px" alt="" />
+        <h2>Dont miss latest news ! Suscribe now !</h2>
+      </div>
+      <div class="form-contain">
+        <h2>Sign Up</h2>
+        <form action="validation.php" method="POST">
+          <input
+            type="text"
+            name="firstname"
+            placeholder="Firstname"
+            required
+          />
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="mail" name="mail" placeholder="Mail" required />
+          <input type="text" name="pswd" placeholder="Password" required />
+          <input
+            type="text"
+            name="pswd2"
+            placeholder="Confirm Password"
+            required
+          />
+          <button type="submit">Suscribe</button>
+        </form>
+        <p>Already a member ? <a href="log.html">Login In</a></p>
+      </div>
+    </section>
+
+    <footer>
+      <p>Photo de Teejay provenant de Pexels</p>
+    </footer>
+  </body>
+</html>
